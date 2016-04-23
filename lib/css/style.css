@@ -1,12 +1,13 @@
 body {
 
 	margin: 0;
+	background: #f0f0f0;
 
 }
 
 #tree {
 
-	background: #f0f0f0;
+
 
 }
 
@@ -16,11 +17,18 @@ body {
 
 }
 
-.row:nth-child( odd ) {
+.row:nth-child( even ) {
 
 	background: #eaeaea;
 
 }
+
+.row.dark {
+
+	background: #333;
+
+}
+
 
 .row > * {
 
@@ -35,6 +43,14 @@ body {
 	background: #fff;
 	width: 40px;
 	height: 40px;
+
+}
+
+.dot img {
+
+	width: 32px;
+	height: 32px;
+	margin: 4px;
 
 }
 
@@ -100,7 +116,7 @@ body {
 
 .green {
 
-	background: #ae6;
+	background: #580;
 
 }
 
