@@ -1,0 +1,113 @@
+body {
+
+	margin: 0;
+
+}
+
+#tree {
+
+	background: #f0f0f0;
+
+}
+
+.row {
+
+	padding: 20px;
+
+}
+
+.row:nth-child( odd ) {
+
+	background: #eaeaea;
+
+}
+
+.row > * {
+
+	display: inline-block;
+
+}
+
+.dot {
+
+	vertical-align: middle;
+	border-radius: 50%;
+	background: #fff;
+	width: 40px;
+	height: 40px;
+
+}
+
+.line {
+
+	vertical-align: middle;
+	border-radius: 8px;
+	width: 80px;
+	height: 10px;
+	background: #c0c0c0;
+	margin: 0 10px;
+
+}
+
+.blank {
+
+	width: 144px;
+
+}
+
+.bar {
+
+	width:10px;
+	height: 130px;
+	border-radius: 8px;
+	background: #c0c0c0;
+	margin: -90px 44px -20px 15px;
+	position: relative;
+	top: 15px;
+
+}
+
+.hline::before, .hbline::before {
+
+	position: relative;
+	top: -44px;
+	display: block;
+	content: "";
+	width:10px;
+	height: 53px;
+	background: #c0c0c0;
+	border-radius: 8px;
+
+}
+
+.hbline::before {
+
+	top: -80px;
+	height: 88px;
+
+}
+
+.hline, .hbline {
+
+	vertical-align: middle;
+	border-radius: 8px;
+	width: 44px;
+	height: 10px;
+	background: #c0c0c0;
+	margin: 0 10px 0 15px;
+
+}
+
+.green {
+
+	background: #ae6;
+
+}
+
+.impassable {
+
+	background: none;
+	border: 3px dotted #c0c0c0;
+	box-sizing: border-box;
+
+}
