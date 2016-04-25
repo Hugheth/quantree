@@ -2,6 +2,7 @@ body {
 
 	margin: 0;
 	background: #f0f0f0;
+	cursor: default;
 
 }
 
@@ -43,6 +44,16 @@ body {
 	background: #fff;
 	width: 40px;
 	height: 40px;
+	transition: all .15s;
+	cursor: pointer;
+	border: 2px solid transparent;
+	box-sizing: border-box;
+
+}
+
+.dot:hover {
+
+	border-color: #580;
 
 }
 
@@ -50,7 +61,7 @@ body {
 
 	width: 32px;
 	height: 32px;
-	margin: 4px;
+	margin: 2px;
 
 }
 
