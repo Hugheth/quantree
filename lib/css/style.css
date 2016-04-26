@@ -12,6 +12,22 @@ body {
 
 }
 
+#health {
+
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+
+#health img {
+
+	width: 32px;
+	height: 32px;
+	margin-left: -10px;
+
+}
+
 .row {
 
 	padding: 20px;
@@ -24,12 +40,9 @@ body {
 
 }
 
-.row.dark {
-
+.row:first-child {
 	background: #333;
-
 }
-
 
 .row > * {
 
