@@ -69,7 +69,7 @@ body {
 
 	vertical-align: middle;
 	border-radius: 8px;
-	width: 80px;
+	width: 0px;
 	height: 10px;
 	background: #c0c0c0;
 	margin: 0 10px;
@@ -78,7 +78,7 @@ body {
 
 .blank {
 
-	width: 144px;
+	width: 104px;
 
 }
 
