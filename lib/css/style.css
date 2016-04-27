@@ -28,6 +28,28 @@ body {
 
 }
 
+#string {
+	position: absolute;
+	right: 0;
+	top: 25px;
+	width: 160px;
+}
+#string img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 48px;
+	height: 48px;
+}
+#string .number {
+
+	display: inline-block;
+	color: #fff;
+	vertical-align: middle;
+	font-family: 'Consolas';
+	font-size: 30px;
+	margin-left: 10px;
+}
+
 .row {
 
 	padding: 20px;
@@ -41,7 +63,7 @@ body {
 }
 
 .row:first-child {
-	background: #333;
+	background: #8df;
 }
 
 .row > * {
