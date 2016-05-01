@@ -87,6 +87,18 @@ body {
 
 }
 
+.dot.highlight {
+
+	border-color: #580;
+
+}
+
+.dot.bluelight {
+
+	border-color: #028;
+
+}
+
 .dot .character {
 
 	position: absolute;
