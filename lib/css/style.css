@@ -12,7 +12,7 @@ body {
 
 }
 
-#health {
+#lives {
 
 	position: absolute;
 	right: 0;
@@ -20,7 +20,7 @@ body {
 
 }
 
-#health img {
+#lives img {
 
 	width: 32px;
 	height: 32px;
